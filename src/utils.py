@@ -22,7 +22,7 @@ def create_directories(dirs: dict, location: str):
 def reorganize_downloads():
     target_dirs = {
         'Downloaded Videos': ['.mov', '.mkv', '.mp4', '.avi', '.wmv'],
-        'Downloaded Pictures': ['.jpg', '.jpg', '.png', '.gif', '.svg', '.webp', '.psd'],
+        'Downloaded Pictures': ['.jpg', '.png', '.gif', '.svg', '.webp', '.psd'],
         'Downloaded Documents': ['.pdf', '.doc', '.docx', '.csv', '.ppt',
                            '.zip', '.odt', '.xls', '.xlsx', '.ipynb',
                            '.xml', '.html', '.txt'],
