@@ -1,0 +1,22 @@
+{
+    "Downloaded Pictures": [
+        "PNGs",
+        "JPGs",
+        "SVGs"
+    ],
+    "Downloaded Videos": [
+        "MKVs",
+        "MP4s",
+        "MOVs",
+        "WMVs"
+    ],
+    "Downloaded Files": [
+        "PDFs",
+        "DOCs",
+        "DOCXs",
+        "PPTs"
+    ],
+    "Downloaded Installers": [
+        "DMGs"
+    ]
+}
