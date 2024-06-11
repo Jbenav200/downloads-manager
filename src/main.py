@@ -4,8 +4,7 @@
 import os
 from dotenv import load_dotenv
 import json
-from utils import create_directories, \
-    reorganize_downloads
+from utils import create_directories, reorganize_downloads
 
 
 # Main function, when called, starts the program.
