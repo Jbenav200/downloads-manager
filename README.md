@@ -11,7 +11,7 @@ You'll need at least python3.10 for to run this locally. To check your python ve
 ```python3 --version```
 
 You will want to run the following in your terminal before
-executing ```python3 main.py```:
+executing ```python3 src/main.py```:
 
 ```python3 -m pip install -r requirements.txt```
 
