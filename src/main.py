@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 def main():
 
     load_dotenv()
-    with open('/Users/jonty/projects/fileManager/src/data/Download_DIRS.json', 'r') as DIRS:
+    with open('data/Download_DIRS.json', 'r') as DIRS:
         dirs = json.load(DIRS)
         location = os.getenv('DOWNLOADS_DIR')
         create_directories(dirs, location)
