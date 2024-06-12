@@ -3,13 +3,13 @@
 # in a single environment.
 
 echo "--------------------------- Creating virtual environment ----------------------"
-pip install --upgrade pip
-pip install virtualenv
+python3 -m pip install --upgrade pip
+python3 -m pip install virtualenv
 virtualenv venv
-source ./venv/Scripts/active
+source {path_to_projects_dir}/venv/bin/activate
 
 echo "----------------------- Installing dependencies ------------------------------"
-pip install -r {path_to_project_root}/requirements.txt
+python3 -m pip install -r {path_to_project_root}/requirements.txt
 
 echo "----------------------- Running fileManager Script server -------------------------"
-python {path_to_project_root}/src/main.py
+python3 {path_to_project_root}/src/main.py
