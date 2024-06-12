@@ -42,6 +42,9 @@ crontab file.
 Now you have set up the cron job and the script automation should run every minute. You can read more about 
 cron jobs [here
 ](https://www.doabledanny.com/cron-jobs-on-mac).
+
+## General Application Information
+
 ### Categories
 - Downloaded Pictures
 - Downloaded Videos
