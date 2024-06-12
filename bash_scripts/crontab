@@ -1,0 +1,2 @@
+# sample crontab file
+* * * * {path_to_projects_directory}/setup_and_run.sh >> {path_to_projects_dir}/bash.log 2>&1
